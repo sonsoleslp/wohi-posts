@@ -1,25 +1,4 @@
 
-
-// Display posts on the page
-function displayPosts(posts) {
-  const postsContainer = document.getElementById('posts');
-  postsContainer.innerHTML = '';  // Clear loading text
-
-  posts.forEach(post => {
-    const postElement = document.createElement('div');
-    postElement.classList.add('card', 'mb-3');
-    postElement.innerHTML = `
-      ${post.imageUrl ? `<img src="${post.imageUrl}" class="card-img-top" alt="Post Image">` : ''}
-      <div class="card-body">
-        <h5 class="card-title">${post.title}</h5>
-        <p class="card-text">${post.body}</p>
-      </div>
-    `;
-    postsContainer.appendChild(postElement);
-  });
-}
-
-
 // Add a new post to the page without refreshing
 function addPostToPage(title, body, imageUrl) {
   const postsContainer = document.getElementById('posts');
