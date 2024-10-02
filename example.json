@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "2024-09-29T13:30:39.760Z",
+      "title": "Discover France",
+      "body": "Paris, the city of lights",
+      "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDkzNjF8MHwxfGFsbHwxfHx8fHx8fHwxNjY1MTI4MzQw&ixlib=rb-1.2.1&q=80&w=1080"
+    },
+    {
+      "id": "2024-09-29T13:10:39.760Z",
+      "title": "Exploring Italy",
+      "body": "Venice and its canals",
+      "imageUrl": "https://images.unsplash.com/photo-1566984991763-91b985a3f9c2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
+}
